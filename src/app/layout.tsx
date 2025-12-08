@@ -10,12 +10,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mark Angelo Sosa | Web Developer",
+  title: "Angelo Sosa - Web Developer",
   description: "Web Developer specializing in Discord apps, Web3 tools, and modern web development using React, Next.js, TypeScript, and Tailwind CSS.",
   keywords: ["Web Developer", "React", "Next.js", "TypeScript", "Web3", "Portfolio"],
-  authors: [{ name: "Mark Angelo Sosa" }],
+  authors: [{ name: "Angelo Sosa" }],
   openGraph: {
-    title: "Mark Angelo Sosa | Web Developer",
+    title: "Angelo Sosa - Web Developer",
     description: "Web Developer specializing in Discord apps, Web3 tools, and modern web development.",
     type: "website",
   },
