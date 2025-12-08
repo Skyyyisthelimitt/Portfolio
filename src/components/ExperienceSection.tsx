@@ -28,7 +28,7 @@ const experiences = [
 
 export default function ExperienceSection() {
   return (
-    <section className="py-8 animate-fade-in animate-delay-2">
+    <section className="py-6 animate-fade-in animate-delay-2">
       <div className="mb-6">
         <h2 className="text-2xl font-bold mb-1" style={{ fontFamily: 'monospace' }}>
           Experience
