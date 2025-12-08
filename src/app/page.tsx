@@ -12,15 +12,15 @@ export default function Home() {
       
       <main className="container pb-16">
         <HeroSection />
-        <SocialLinks />
         <ExperienceSection />
         <ProjectsSection />
         <TechStack />
       </main>
       
-      <footer className="container py-8 border-t border-[var(--border)]">
-        <p className="text-sm text-[var(--text-secondary)]">
-          © {new Date().getFullYear()} Mark Angelo Sosa. All rights reserved.
+      <footer className="container py-12">
+        <SocialLinks />
+        <p className="text-sm text-[var(--text-secondary)] mt-8 text-center pb-8">
+          © {new Date().getFullYear()} Angelo Sosa. All rights reserved.
         </p>
       </footer>
     </div>
