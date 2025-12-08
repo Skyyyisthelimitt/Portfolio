@@ -5,11 +5,11 @@ export default function HeroSection() {
         Hey It&apos;s me
       </p>
       
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-2">
-        MARK ANGELO SOSA
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-3">
+        ANGELO SOSA
       </h1>
       
-      <h2 className="text-2xl md:text-3xl font-light text-[var(--text-secondary)] mb-6" style={{ fontFamily: 'monospace' }}>
+      <h2 className="text-3xl md:text-4xl font-light text-[var(--text-secondary)] mb-6" style={{ fontFamily: 'monospace' }}>
         Web Developer
       </h2>
       
@@ -31,7 +31,7 @@ export default function HeroSection() {
         Based in Rizal, Philippines
       </p>
       
-      <div className="space-y-4 max-w-2xl">
+      <div className="space-y-4 max-w-2xl mb-8">
         <p className="text-base leading-relaxed text-[var(--text-secondary)]">
           I <span className="highlight">develop</span> and <span className="highlight">design</span> Discord apps, Web3 tools, and modern websites — projects built on structure, logic, and creative thinking.
         </p>
@@ -44,7 +44,27 @@ export default function HeroSection() {
           I&apos;m all about clarity, simplicity, and <span className="highlight">systems that make sense</span>. If something can be cleaner or smarter, I&apos;ll <span className="highlight">build</span> it that way.
         </p>
       </div>
+
+      <a
+        href="#connect"
+        className="hire-button"
+      >
+        <span>Hire Me</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M5 12h14" />
+          <path d="m12 5 7 7-7 7" />
+        </svg>
+      </a>
     </section>
   );
 }
-
