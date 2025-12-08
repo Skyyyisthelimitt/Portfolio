@@ -19,7 +19,7 @@ export default function Home() {
       
       <footer className="container py-12">
         <SocialLinks />
-        <p className="text-sm text-[var(--text-secondary)] mt-8 text-center pb-8">
+        <p className="text-sm text-[var(--text-secondary)] mt-16 text-center pb-16">
           © {new Date().getFullYear()} Angelo Sosa. All rights reserved.
         </p>
       </footer>
