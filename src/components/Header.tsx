@@ -6,17 +6,8 @@ export default function Header() {
   const { theme, toggleTheme, mounted } = useTheme();
 
   return (
-    <header className="py-6">
-      <nav className="container flex items-center justify-between">
-        <div className="flex items-center gap-6">
-          <a 
-            href="/" 
-            className="text-sm font-medium text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
-          >
-            Home
-          </a>
-        </div>
-        
+    <header className="pt-4 pb-2">
+      <nav className="container flex items-center justify-end">
         <button
           onClick={toggleTheme}
           className="theme-toggle"
@@ -67,4 +58,5 @@ export default function Header() {
     </header>
   );
 }
+
 
