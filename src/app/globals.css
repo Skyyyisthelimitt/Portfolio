@@ -197,23 +197,49 @@ a:hover {
 
 /* ===== Tech Stack Icons ===== */
 .tech-icon {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 6px;
-  background-color: var(--bg-secondary);
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
 }
 
 .tech-icon:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px) scale(1.1);
+}
+
+.tech-icon:hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+  pointer-events: none;
 }
 
 .tech-icon svg {
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+  transition: filter 0.3s ease;
+}
+
+.tech-icon:hover svg {
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+}
+
+/* Light theme - darker glow */
+[data-theme="light"] .tech-icon svg {
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.2));
+}
+
+[data-theme="light"] .tech-icon:hover svg {
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3)) drop-shadow(0 0 16px rgba(0, 0, 0, 0.2));
 }
 
 /* ===== Experience Section ===== */
@@ -299,5 +325,86 @@ a:hover {
   font-weight: 700;
 }
 
+/* ===== Accent Line ===== */
+.accent-line {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #4C8DFF, #6C63FF, #9B59B6);
+  border-radius: 2px;
+  opacity: 0.9;
+}
 
+[data-theme="light"] .accent-line {
+  background: linear-gradient(90deg, #3366FF, #5B4FFF, #8B5CF6);
+}
 
+/* ===== Hire Me Button ===== */
+.hire-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #0D0D0D;
+  background: #F2F2F2;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.hire-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1.5px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.8), rgba(255,255,255,0.2), rgba(255,255,255,0.5));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.hire-button:hover {
+  transform: translateY(-2px);
+  background: #FFFFFF;
+  box-shadow: 
+    0 5px 16px rgba(255, 255, 255, 0.2),
+    inset 0 1px 1px rgba(255, 255, 255, 0.4),
+    inset 0 -1px 1px rgba(0, 0, 0, 0.08);
+  color: #000000;
+}
+
+.hire-button:active {
+  transform: translateY(0);
+}
+
+.hire-button svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+.hire-button:hover svg {
+  transform: translateX(4px);
+}
+
+/* Light theme variant */
+[data-theme="light"] .hire-button {
+  color: #FFFFFF;
+  background: #111111;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="light"] .hire-button::before {
+  display: none;
+}
+
+[data-theme="light"] .hire-button:hover {
+  background: #000000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+}
