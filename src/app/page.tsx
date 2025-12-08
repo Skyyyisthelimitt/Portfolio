@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import SocialLinks from "@/components/SocialLinks";
+import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import TechStack from "@/components/TechStack";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <main className="container pb-16">
         <HeroSection />
         <SocialLinks />
+        <ExperienceSection />
         <ProjectsSection />
         <TechStack />
       </main>
