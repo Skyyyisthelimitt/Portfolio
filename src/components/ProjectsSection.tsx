@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: 'WEB3 Manager',
+    description:
+      'A Web3 dashboard to manage NFT whitelists and collaborations, integrating Google Sheets API for real-time data tracking, quick edits, and deadline management. Features crypto overview with live charts, currency conversion, and secure login.',
+    tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+    link: 'https://web3mngr.vercel.app/login',
+  },
+  {
     title: 'Ganba App',
     description:
       'A gamified productivity app inspired by "Ganbaru" (頑張る) — the Japanese spirit of doing your best. Features task management with priorities and deadlines, notes with tagging, progress tracking with charts, achievement badges, streak counters, and a real-time dashboard.',
@@ -7,18 +14,11 @@ const projects = [
     link: '#',
   },
   {
-    title: 'WEB3 Manager',
-    description:
-      'A Web3 dashboard to manage NFT whitelists and collaborations, integrating Google Sheets API for real-time data tracking, quick edits, and deadline management. Features crypto overview with live charts, currency conversion, and secure login.',
-    tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-    link: '#',
-  },
-  {
     title: 'Collab Request Bot',
     description:
       'A Discord bot that monitors collab request channels across multiple servers. Automatically reacts to acknowledge requests and forwards details (project, requester, source server) to a centralized hub for streamlined partnership tracking.',
     tech: ['Node.js', 'Discord.js'],
-    link: 'https://github.com/Skyyyisthelimitt/collab-request-bot',
+    link: '#',
   },
   {
     title: 'Tweet Tracker Bot',
@@ -50,7 +50,7 @@ export default function ProjectsSection() {
             <p className="text-sm text-[var(--text-secondary)] mb-4">
               {project.description}
             </p>
-            <div className="flex flex-wrap gap-2 mt-3">
+            <div className="flex flex-wrap items-center gap-2 mt-3">
               {project.tech.map((tech) => (
                 <span
                   key={tech}
@@ -59,6 +59,21 @@ export default function ProjectsSection() {
                   {tech}
                 </span>
               ))}
+              {project.link !== '#' && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-button text-xs py-1 px-2.5 ml-auto"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Website
+                </a>
+              )}
             </div>
           </div>
         ))}
