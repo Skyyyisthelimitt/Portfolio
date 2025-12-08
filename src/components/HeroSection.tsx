@@ -37,7 +37,7 @@ export default function HeroSection() {
         </p>
         
         <p className="text-base leading-relaxed text-[var(--text-secondary)]">
-          3+ years of experience in crypto and collab management exposed me to every kind of UI and workflow problem, which turned me into someone who cares deeply about <span className="highlight">design</span> and <span className="highlight">detail</span>.
+          3+ years of experience in web3 and collab management exposed me to every kind of UI and workflow problem, which turned me into someone who cares deeply about <span className="highlight">design</span> and <span className="highlight">detail</span>.
         </p>
         
         <p className="text-base leading-relaxed text-[var(--text-secondary)]">
