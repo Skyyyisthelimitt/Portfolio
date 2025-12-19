@@ -3,7 +3,7 @@ const projects = [
     title: 'WEB3 Wizard',
     description:
       'The Ultimate Operating System for Web3 Natives. Unifies portfolio tracking, whitelist grinding, and collab management. Features multi-chain support (EVM & Solana), real-time net worth, Google Sheets sync for whitelists, and live market intelligence.',
-    tech: ['Next.js 15', 'TypeScript', 'Tailwind & Shadcn', 'Supabase', 'Wagmi', 'RainbowKit'],
+    tech: ['Next.js 15', 'TypeScript', 'Tailwind & Shadcn', 'Supabase','RainbowKit'],
     link: 'https://web3mngr.vercel.app/login',
   },
   {
