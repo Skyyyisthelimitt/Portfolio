@@ -1,9 +1,9 @@
 const projects = [
   {
-    title: 'WEB3 Manager',
+    title: 'WEB3 Wizard',
     description:
-      'A Web3 dashboard to manage NFT whitelists and collaborations, integrating Google Sheets API for real-time data tracking, quick edits, and deadline management. Features crypto overview with live charts, currency conversion, and secure login.',
-    tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+      'The Ultimate Operating System for Web3 Natives. Unifies portfolio tracking, whitelist grinding, and collab management. Features multi-chain support (EVM & Solana), real-time net worth, Google Sheets sync for whitelists, and live market intelligence.',
+    tech: ['Next.js 15', 'TypeScript', 'Tailwind & Shadcn', 'Supabase', 'Wagmi', 'RainbowKit'],
     link: 'https://web3mngr.vercel.app/login',
   },
   {
