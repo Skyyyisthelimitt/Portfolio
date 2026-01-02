@@ -4,6 +4,7 @@ import SocialLinks from "@/components/SocialLinks";
 import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import TechStack from "@/components/TechStack";
+import Chatbot from "@/components/Chatbot";
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
           © {new Date().getFullYear()} Angelo Sosa. All rights reserved.
         </p>
       </footer>
+
+      <Chatbot />
     </div>
   );
 }
