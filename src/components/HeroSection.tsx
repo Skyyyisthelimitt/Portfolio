@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import profileImage from '@/app/profile.png';
+
 export default function HeroSection() {
   return (
     <section className="pt-4 pb-12 animate-fade-in">
@@ -5,13 +8,24 @@ export default function HeroSection() {
         Hey It&apos;s me
       </p>
       
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-3">
-        ANGELO SOSA
-      </h1>
-      
-      <h2 className="text-3xl md:text-4xl font-light text-[var(--text-secondary)] mb-6" style={{ fontFamily: 'monospace' }}>
-        Web Developer
-      </h2>
+      <div className="flex items-center gap-4 mb-6">
+        <Image
+          src={profileImage}
+          alt="Angelo Sosa"
+          width={120}
+          height={120}
+          className="object-contain flex-shrink-0 w-24 h-24 md:w-32 md:h-32"
+          priority
+        />
+        <div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
+            ANGELO SOSA
+          </h1>
+          <h2 className="text-3xl md:text-4xl font-light text-[var(--text-secondary)] mt-1" style={{ fontFamily: 'monospace' }}>
+            Web Developer
+          </h2>
+        </div>
+      </div>
       
       <p className="flex items-center gap-2 text-sm text-[var(--text-secondary)] mb-8">
         <svg
