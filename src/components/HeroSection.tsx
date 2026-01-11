@@ -47,15 +47,15 @@ export default function HeroSection() {
       
       <div className="space-y-4 max-w-2xl mb-8">
         <p className="text-base leading-relaxed text-[var(--text-secondary)]">
-          I <span className="highlight">develop</span> and <span className="highlight">design</span> Discord apps, Web3 tools, and modern websites — projects built on structure, logic, and creative thinking.
+          I <span className="highlight">develop</span> and <span className="highlight">design</span> modern websites, automation systems, Web3 tools, and Discord applications built on structure, logic, and creative problem-solving.
         </p>
         
         <p className="text-base leading-relaxed text-[var(--text-secondary)]">
-          3+ years of experience in web3 and collab management exposed me to every kind of UI and workflow problem, which turned me into someone who cares deeply about <span className="highlight">design</span> and <span className="highlight">detail</span>.
+          With 3+ years of experience in Web3 and collaboration management, I’ve worked through a wide range of UI, system, and workflow challenges, shaping a strong focus on <span className="highlight">design quality,</span> <span className="highlight">efficiency,</span> and <span className="highlight">thoughtful execution.</span>
         </p>
         
         <p className="text-base leading-relaxed text-[var(--text-secondary)]">
-          I&apos;m all about clarity, simplicity, and <span className="highlight">systems that make sense</span>. If something can be cleaner or smarter, I&apos;ll <span className="highlight">build</span> it that way.
+          As a developer and automation engineer, I value clarity, simplicity, and <span className="highlight">systems that make sense</span>. If a process can be cleaner, smarter, or more efficient, I design and build it that way.
         </p>
       </div>
 
