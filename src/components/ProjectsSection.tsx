@@ -7,6 +7,13 @@ const projects = [
     link: 'https://web3mngr.vercel.app/login',
   },
   {
+    title: 'Nagare',
+    description:
+      'A minimalist Neobrutalist productivity platform focused on flow. It features an enhanced focus timer (Flow & Pomodoro modes), Kanban workspace management, and an AI-driven music experience via Gemini AI and YouTube integration.',
+    tech: ['Next.js 14', 'Tailwind CSS', 'Framer Motion', 'Gemini AI', 'YouTube API'],
+    link: 'https://nagareflow.vercel.app/',
+  },
+  {
     title: 'Ganba App',
     description:
       'A gamified productivity app inspired by "Ganbaru" (頑張る) — the Japanese spirit of doing your best. Features task management with priorities and deadlines, notes with tagging, progress tracking with charts, achievement badges, streak counters, and a real-time dashboard.',
