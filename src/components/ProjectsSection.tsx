@@ -21,6 +21,13 @@ const projects = [
     link: 'https://meowgram.vercel.app/',
   },
   {
+    title: 'Collab Manager Portfolio',
+    description:
+      'Sky Portfolio – Collab Manager is a professional, neo-brutalist portfolio built for a Web3 and community collaboration manager, featuring bold visuals, real-time Discord status, and interactive sections designed for clarity and impact.',
+    tech: ['Next.js 15', 'TypeScript', 'Vanilla CSS', 'Framer Motion'],
+    link: 'https://skyyyportfolio.vercel.app/',
+  },
+  {
     title: 'Ganba App',
     description:
       'A gamified productivity app inspired by "Ganbaru" (頑張る) — the Japanese spirit of doing your best. Features task management with priorities and deadlines, notes with tagging, progress tracking with charts, achievement badges, streak counters, and a real-time dashboard.',
