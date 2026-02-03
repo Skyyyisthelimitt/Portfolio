@@ -14,6 +14,13 @@ const projects = [
     link: 'https://nagareflow.vercel.app/',
   },
   {
+    title: 'Meowgram',
+    description:
+      'A cat-focused social media app that allows owners to create profiles for their cats and share photos in a wholesome, low-pressure environment.',
+    tech: ['Next.js 15', 'TypeScript', 'Supabase'],
+    link: 'https://meowgram.vercel.app/',
+  },
+  {
     title: 'Ganba App',
     description:
       'A gamified productivity app inspired by "Ganbaru" (頑張る) — the Japanese spirit of doing your best. Features task management with priorities and deadlines, notes with tagging, progress tracking with charts, achievement badges, streak counters, and a real-time dashboard.',
