@@ -34,13 +34,6 @@ const projects = [
     tech: ['n8n'],
     link: '#',
   },
-   {
-    title: 'Multi-Inbox Gmail to Telegram Automation',
-    description:
-      'A high-frequency n8n automation that monitors multiple Gmail inboxes and delivers unified, cleaned, and context-rich email alerts directly to Telegram.',
-    tech: ['n8n'],
-    link: '#',
-  },
   {
     title: 'AI Voice Task Automation',
     description:
