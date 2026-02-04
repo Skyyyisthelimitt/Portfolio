@@ -28,10 +28,24 @@ const projects = [
     link: 'https://skyyyportfolio.vercel.app/',
   },
   {
-    title: 'Ganba App',
+    title: 'Multi-Inbox Gmail to Telegram Automation',
     description:
-      'A gamified productivity app inspired by "Ganbaru" (頑張る) — the Japanese spirit of doing your best. Features task management with priorities and deadlines, notes with tagging, progress tracking with charts, achievement badges, streak counters, and a real-time dashboard.',
-    tech: ['React', 'Vite', 'Zustand', 'Tailwind CSS', 'Recharts'],
+      'A high-frequency n8n automation that monitors multiple Gmail inboxes and delivers unified, cleaned, and context-rich email alerts directly to Telegram.',
+    tech: ['n8n'],
+    link: '#',
+  },
+   {
+    title: 'Multi-Inbox Gmail to Telegram Automation',
+    description:
+      'A high-frequency n8n automation that monitors multiple Gmail inboxes and delivers unified, cleaned, and context-rich email alerts directly to Telegram.',
+    tech: ['n8n'],
+    link: '#',
+  },
+  {
+    title: 'AI Voice Task Automation',
+    description:
+      'An n8n automation that converts Telegram voice notes into structured Markdown tasks using AI transcription and stores them seamlessly in Google Drive and Obsidian.',
+    tech: ['n8n'],
     link: '#',
   },
   {
