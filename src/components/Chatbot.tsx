@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
-import profileImage from '@/app/profile.png';
+import profileImage from '@/app/gradpic.jpg';
 
 interface Message {
   role: 'user' | 'assistant';

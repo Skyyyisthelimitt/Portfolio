@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import profileImage from '@/app/profile.png';
+import profileImage from '@/app/gradpic.jpg';
 
 export default function HeroSection() {
   return (
@@ -12,16 +12,16 @@ export default function HeroSection() {
         <Image
           src={profileImage}
           alt="Angelo Sosa"
-          width={120}
-          height={120}
-          className="object-contain flex-shrink-0 w-24 h-24 md:w-32 md:h-32"
+          width={160}
+          height={160}
+          className="object-cover object-top flex-shrink-0 w-28 h-28 md:w-36 md:h-36 rounded-xl"
           priority
         />
         <div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
             ANGELO SOSA
           </h1>
-          <h2 className="text-3xl md:text-4xl font-light text-[var(--text-secondary)] mt-1" style={{ fontFamily: 'monospace' }}>
+          <h2 className="text-3xl md:text-4xl font-light text-[var(--text-secondary)] mt-3" style={{ fontFamily: 'monospace' }}>
             Web Developer
           </h2>
         </div>
