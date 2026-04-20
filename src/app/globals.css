@@ -466,13 +466,19 @@ a:hover {
   position: absolute;
   bottom: 70px;
   right: 0;
-  background: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #111111;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   padding: 8px 12px;
   white-space: nowrap;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   animation: tooltipFadeIn 0.3s ease;
+}
+
+.chatbot-tooltip span {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .chatbot-tooltip::after {
@@ -484,26 +490,21 @@ a:hover {
   height: 0;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-top: 6px solid #ffffff;
-}
-
-.chatbot-tooltip span {
-  color: #111111;
-  font-size: 0.875rem;
-  font-weight: 500;
+  border-top: 6px solid #111111;
 }
 
 [data-theme="light"] .chatbot-tooltip {
-  background: #111111;
-  border-color: rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="light"] .chatbot-tooltip::after {
-  border-top-color: #111111;
+  border-top-color: #ffffff;
 }
 
 [data-theme="light"] .chatbot-tooltip span {
-  color: #ffffff;
+  color: #111111;
 }
 
 @keyframes tooltipFadeIn {
@@ -549,10 +550,10 @@ a:hover {
 }
 
 [data-theme="dark"] .chatbot-toggle {
-  background: #ffffff;
-  border-color: rgba(255, 255, 255, 0.2);
-  color: #111111;
-  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+  background: #1a1a1a;
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 [data-theme="dark"] .chatbot-toggle:hover {

@@ -205,7 +205,7 @@ export default function Chatbot() {
               alt="Chat with Gelo"
               width={56}
               height={56}
-              className="object-contain w-full h-full"
+              className="object-cover object-top w-full h-full"
             />
           )}
         </button>
@@ -223,7 +223,7 @@ export default function Chatbot() {
                   alt="Gelo"
                   width={40}
                   height={40}
-                  className="object-contain w-full h-full"
+                  className="object-cover object-top w-full h-full"
                 />
               </div>
               <div>
@@ -250,7 +250,7 @@ export default function Chatbot() {
                       alt="Gelo"
                       width={32}
                       height={32}
-                      className="object-contain w-full h-full"
+                      className="object-cover object-top w-full h-full"
                     />
                   </div>
                 )}
@@ -273,7 +273,7 @@ export default function Chatbot() {
                     alt="Gelo"
                     width={32}
                     height={32}
-                    className="object-contain w-full h-full"
+                    className="object-cover object-top w-full h-full"
                   />
                 </div>
                 <div className="chatbot-message assistant">
