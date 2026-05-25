@@ -7,6 +7,13 @@ const projects = [
     link: 'https://web3mngr.vercel.app/login',
   },
   {
+    title: 'SnowPropDeals',
+    description:
+      'A curated deals hub for futures prop traders. Surfaces verified discount codes from partner firms, live X giveaway campaigns, and a B2B intake flow for new partnerships. Includes an admin dashboard for deal CRUD, submission approval, visit/click tracking, and CSV export.',
+    tech: ['Next.js 16', 'TypeScript', 'Tailwind CSS 4', 'Radix UI', 'Three.js', 'Vercel KV'],
+    link: 'http://54.79.229.37/',
+  },
+  {
     title: 'Nagare',
     description:
       'A minimalist Neobrutalist productivity platform focused on flow. It features an enhanced focus timer (Flow & Pomodoro modes), Kanban workspace management, and an AI-driven music experience via Gemini AI and YouTube integration.',
