@@ -1,12 +1,5 @@
 const projects = [
   {
-    title: 'WEB3 Wizard',
-    description:
-      'The Ultimate Operating System for Web3 Natives. Unifies portfolio tracking, whitelist grinding, and collab management. Features multi-chain support (EVM & Solana), real-time net worth, Google Sheets sync for whitelists, and live market intelligence.',
-    tech: ['Next.js 15', 'TypeScript', 'Tailwind & Shadcn', 'Supabase','RainbowKit'],
-    link: 'https://web3mngr.vercel.app/login',
-  },
-  {
     title: 'SnowPropDeals',
     description:
       'A curated deals hub for futures prop traders. Surfaces verified discount codes from partner firms, live X giveaway campaigns, and a B2B intake flow for new partnerships. Includes an admin dashboard for deal CRUD, submission approval, visit/click tracking, and CSV export.',
@@ -19,6 +12,13 @@ const projects = [
       'A minimalist Neobrutalist productivity platform focused on flow. It features an enhanced focus timer (Flow & Pomodoro modes), Kanban workspace management, and an AI-driven music experience via Gemini AI and YouTube integration.',
     tech: ['Next.js 14', 'Tailwind CSS', 'Framer Motion', 'Gemini AI', 'YouTube API'],
     link: 'https://nagareflow.vercel.app/',
+  },
+  {
+    title: 'WEB3 Wizard',
+    description:
+      'The Ultimate Operating System for Web3 Natives. Unifies portfolio tracking, whitelist grinding, and collab management. Features multi-chain support (EVM & Solana), real-time net worth, Google Sheets sync for whitelists, and live market intelligence.',
+    tech: ['Next.js 15', 'TypeScript', 'Tailwind & Shadcn', 'Supabase','RainbowKit'],
+    link: 'https://web3mngr.vercel.app/login',
   },
   {
     title: 'Meowgram',
