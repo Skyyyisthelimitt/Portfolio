@@ -11,7 +11,7 @@ const projects = [
     description:
       'A curated deals hub for futures prop traders. Surfaces verified discount codes from partner firms, live X giveaway campaigns, and a B2B intake flow for new partnerships. Includes an admin dashboard for deal CRUD, submission approval, visit/click tracking, and CSV export.',
     tech: ['Next.js 16', 'TypeScript', 'Tailwind CSS 4', 'Radix UI', 'Three.js', 'Vercel KV'],
-    link: 'http://54.79.229.37/',
+    link: 'https://snowpropdeals.com/',
   },
   {
     title: 'Nagare',
