@@ -156,15 +156,15 @@ a:hover {
   justify-content: center;
   transition: transform 0.3s ease;
   color: #4a4a4a;
-  left: 4px;
+  left: 2px;
 }
 
 .theme-toggle.light-active .theme-toggle-slider {
-  transform: translateX(0);
+  transform: translateX(24px);
 }
 
 .theme-toggle.dark-active .theme-toggle-slider {
-  transform: translateX(24px);
+  transform: translateX(0);
 }
 
 [data-theme="light"] .theme-toggle {
